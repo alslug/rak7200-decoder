@@ -1,6 +1,7 @@
 function Decoder(bytes, port) {
   var retValue =   { 
-    bytes: bytes
+    bytes: bytes,
+    port: port
   };
   var start = 0;
   while (start < bytes.length) {
